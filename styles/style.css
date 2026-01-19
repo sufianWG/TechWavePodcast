@@ -18,6 +18,7 @@
     --gradient-c-yellow: #F7E93F;
     --gradient-c-pink: #FB09B4;
     --gradient-c-purple: #9100F8;
+    --link-hover: #e8e8e8;
 }
 /* shared styles */
 .btn{
@@ -33,6 +34,9 @@
 
 .btn:hover{
     background: linear-gradient(45deg, var(--gradient-c-purple) 0%, var(--gradient-c-pink) 51%, var(--gradient-c-yellow) 100%);
+}
+.link-hover:hover{
+    color: var(--link-hover);
 }
 /* header nav styles */
 header{
@@ -61,4 +65,95 @@ nav ul li a{
     color: var(--text-light);
     font-weight: 600;
     font-size: 1rem;
+}
+
+/* hero section styles */
+#hero{
+    background: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid #4a3763;
+}
+.hero-contents{
+    text-align: center;
+    padding: 6.25rem 0;
+}
+.hero-icon{
+    background: url(../assets/hero-circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    position: relative;
+    padding: 4.37rem;
+}
+.hero-icon img{
+    width: 120px;
+}
+.hero-icon .base{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    font-size: 1.12rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--bg-1);
+    background-color: var(--primary-green);
+    padding: 0.5rem 1rem;
+    border-radius: 99999px;
+    box-shadow: 0 3px 27px 0 #00ff8875;
+}
+.hero-info h1{
+    font-size: 3.75rem;
+    font-weight: 800;
+    color: var(--text-light);
+}
+.hero-info p{
+    font-size: 1rem;
+    color: var(--text-light);
+    margin: 1.5rem auto;
+}
+.hero-buttons{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+.hero-buttons a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-buttons button{
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 8px;
+}
+.hero-buttons .transparent-btn{
+    padding: 0.78rem 1rem;
+    border: 1px solid var(--primary-green);
+    background: transparent;
+    color: var(--text-light);
+    border-radius: 99999px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out
+}
+.hero-buttons a > button > img{
+    width: 20px;
+}
+.hero-buttons a > button > i{
+    font-size: 1.25rem;
+}
+.hero-buttons .transparent-btn:hover{
+    border: 1px solid var(--primary-green);
+    background-color: var(--primary-green);
+    color: var(--bg-1);
 }
