@@ -120,7 +120,7 @@ nav ul li a{
 }
 .hero-info p{
     font-size: 1rem;
-    color: var(--text-light);
+    color: var(--slightly-gray-color);
     margin: 1.5rem auto;
 }
 .hero-buttons{
@@ -192,6 +192,7 @@ nav ul li a{
     font-size: 1rem;
     line-height: 1.25rem;
     font-weight: 400;
+    color: var(--slightly-gray-color);
 }
 .about-info .description{
     margin-bottom: 3rem;
@@ -213,7 +214,7 @@ nav ul li a{
     color: var(--primary-green);
 }
 .achievement-item p{
-    color: var(--text-light);
+    color: var(--slightly-gray-color);
     font-size: 1rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -274,6 +275,7 @@ nav ul li a{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
+    color: var(--slightly-gray-color);
 }
 
 /* features & host meet styles */
@@ -331,7 +333,7 @@ nav ul li a{
 }
 
 .video-info p{
-    color: var(--text-light);
+    color: var(--slightly-gray-color);
     font-size: 1rem;
     line-height: 1.5rem;
     margin-bottom: 0.75rem;
