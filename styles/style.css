@@ -252,7 +252,7 @@ nav ul li a{
 }
 /* have to remove this style, it's temporary for test */
 .cr-card{
-    background-color: var(--choice-card-bg);
+    background-color: rgb(42, 15, 77);
     color: var(--text-light);
     border: none;
     border-radius: 2.5rem;
