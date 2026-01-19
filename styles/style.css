@@ -158,3 +158,58 @@ nav ul li a{
     background-color: var(--primary-green);
     color: var(--bg-1);
 }
+
+/* about section styles */
+.about-section{
+    background-color: var(--bg-1);
+    padding: 3.125rem 0 7.5rem 0;
+}
+.about{
+    max-width: 1200px;
+    width: 87%;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-info{
+    color: var(--text-light);
+}
+.about-info h3{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.about hr{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    opacity: 10%;
+}
+.about-info p{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+.about-info .description{
+    margin-bottom: 3rem;
+}
+.about-achievements{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.achievement-item{
+    max-width: 15rem;
+    width: 100%;
+    text-align: center;
+}
+.achievement-item h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: var(--primary-green);
+}
+.achievement-item p{
+    color: var(--text-light);
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
