@@ -20,6 +20,7 @@
     --gradient-c-purple: #9100F8;
     --link-hover: #e8e8e8;
     --choice-card-bg: #351165;
+    --slightly-gray-color: rgb(168, 158, 180);
 }
 /* shared styles */
 .btn{
@@ -67,6 +68,7 @@ nav ul li a{
     font-weight: 600;
     font-size: 1rem;
 }
+
 
 /* hero section styles */
 #hero{
@@ -136,6 +138,7 @@ nav ul li a{
     justify-content: center;
     margin: 0 auto;
     gap: 8px;
+    align-items: center;
 }
 .hero-buttons .transparent-btn{
     padding: 0.78rem 1rem;
