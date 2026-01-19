@@ -76,6 +76,7 @@ nav ul li a{
     background: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     border-top: 1px solid #4a3763;
 }
 .hero-contents{
@@ -404,4 +405,51 @@ nav ul li a{
     border: 1px solid var(--stroke-color);
     padding: 10px;
     border-radius: 50%;
+    transition: border 0.3s ease-in-out;
+}
+.social-links a:hover{
+    border: 1px solid var(--slightly-gray-color);
+}
+
+/* footer styles */
+footer{
+    background: url(../assets/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 120px 0;
+}
+.footer-content{
+    max-width: 1200px;
+    width: 87%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-logo{
+    margin-bottom: 32px;
+}
+.footer-social-links{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.footer-social-links a{
+    font-size: 1rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--slightly-gray-color);
+    transition: color 0.3s ease-in-out;
+}
+.footer-social-links a:hover{
+    color: var(--text-light);
+}
+.footer-copy-right{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--slightly-gray-color);
 }
