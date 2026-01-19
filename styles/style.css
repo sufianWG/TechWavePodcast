@@ -19,6 +19,7 @@
     --gradient-c-pink: #FB09B4;
     --gradient-c-purple: #9100F8;
     --link-hover: #e8e8e8;
+    --choice-card-bg: #351165;
 }
 /* shared styles */
 .btn{
@@ -212,4 +213,61 @@ nav ul li a{
     font-size: 1rem;
     font-weight: 400;
     text-transform: uppercase;
+}
+
+/* chose reason section styles */
+.choosereason-section{
+    background: var(--bg-2);
+    padding: 7.5rem 0;
+}
+.chosereason-content{
+    max-width: 1200px;
+    width: 87%;
+    margin: 0 auto;
+}
+.heading-cr h2{
+    text-align: center;
+    color: var(--text-light);
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+}
+.cr-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 1.87rem;
+}
+.tall-card{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.wide-card{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.normal-card{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+/* have to remove this style, it's temporary for test */
+.cr-card{
+    background-color: var(--choice-card-bg);
+    color: var(--text-light);
+    border: none;
+    border-radius: 2.5rem;
+    padding: 2.5rem 2.5rem;
+    place-content: center;
+    box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.cr-card h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.cr-card p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
 }
