@@ -337,4 +337,7 @@ nav ul li a{
     font-size: 1rem;
     font-weight: 600;
     color: var(--text-light);
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
