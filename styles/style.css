@@ -488,8 +488,7 @@ footer{
     }
     #hero{
         background-size: contain;
-        background-position: center 50px;
-        
+        background-position: center 50px;    
     }
     .hero-contents{
         text-align: center;
@@ -511,7 +510,7 @@ footer{
     }
     .about-info .description{
         margin-bottom: 2rem;
-        text-align: justify;
+        text-align: center;
     }
     .about-achievements{
         display: grid;
@@ -546,12 +545,47 @@ footer{
         max-width: fit-content;
         width: 100%;
     }
+    .video-info{
+        padding: 16px;
+    }
     .feature-n-meet-section{
         padding: 40px 0;
     }
     .feature-episodes{
         margin: 0 auto 3.75rem;
     }
+    .meet-host h2{
+        margin-bottom: 1.5rem;
+    }
+    .host-items{
+        flex-direction: column;
+        padding: 24px;
+        border-radius: 24px;
+    }
+    .host-info{
+        text-align: center;
+    }
+    .social-links{
+        justify-content: center;
+    }
+    footer{
+        padding: 40px 0;
+    }
+    .footer-logo{
+        margin-bottom: 24px;   
+    }
+    .footer-social-links{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px 0;
+        place-items: center;
+        max-width: fit-content;
+        margin: 0 auto;
+    }
+    .footer-copy-right{
+        margin-top: 48px;
+    }
+    
 }
 
 /* medium devices */
@@ -559,10 +593,48 @@ footer{
     .menu, nav .subscribe{
         display: none;
     }
+    .hero-info {
+        margin-top: 1.5rem;
+    }
+    .about-section{
+        padding: 50px 0 40px 0;
+    }
+    
     .about-achievements{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+    .about hr{
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+    .cr-cards
+    {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem 0;
+    }
+     .choosereason-section{
+        padding: 20px 0;
+    }
+    .feature-episodes .videos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem 1rem;
+    }
+    .video-card{
+        max-width: fit-content;
+        width: 100%;
+        height: auto;
+    }
+    .video-info{
+        padding: 16px;
+    }
+    .host-items{
+        padding: 24px;
+        border-radius: 24px;
+    }
+   
+    
 }
 
 /* Large Devices */
