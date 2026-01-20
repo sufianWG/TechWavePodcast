@@ -122,6 +122,7 @@ nav ul li a{
 }
 .hero-info p{
     font-size: 1rem;
+    font-weight: 400;
     color: var(--slightly-gray-color);
     margin: 1.5rem auto;
 }
@@ -477,4 +478,96 @@ footer{
     font-size: 1rem;
     font-weight: 400;
     color: var(--slightly-gray-color);
+}
+
+/* responsove styles */
+/* small devices */
+@media screen and (max-width:576px){
+    .menu, nav .subscribe{
+        display: none;
+    }
+    #hero{
+        background-size: contain;
+        background-position: center 50px;
+        
+    }
+    .hero-contents{
+        text-align: center;
+        padding: 45px 0;
+        
+    }
+    .hero-icon{
+        width: 200px;
+        height: 200px;
+    }
+    .hero-icon img{
+        width: 68px;
+    }
+    .hero-icon .base{
+        right: 2px;
+    }
+    .about-section{
+    padding: 50px 0 40px 0;
+    }
+    .about-info .description{
+        margin-bottom: 2rem;
+        text-align: justify;
+    }
+    .about-achievements{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .about hr{
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+    .choosereason-section{
+        padding: 20px 0;
+    }
+    .heading-cr h2{
+        font-size: 2rem;
+    }
+    .cr-cards
+    {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem 0;
+    }
+    .cr-card{
+        width: 100%;
+        padding: 24px 24px;
+        border-radius: 24px;
+    }
+    .feature-episodes .videos{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem 0;
+    }
+    .video-card{
+        max-width: fit-content;
+        width: 100%;
+    }
+    .feature-n-meet-section{
+        padding: 40px 0;
+    }
+    .feature-episodes{
+        margin: 0 auto 3.75rem;
+    }
+}
+
+/* medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .menu, nav .subscribe{
+        display: none;
+    }
+    .about-achievements{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Large Devices */
+@media screen and (min-width: 993px){
+    .humburger-icon{
+        display: none;
+    }
 }
